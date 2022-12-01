@@ -13,7 +13,7 @@ function Demo(){
     )
 }
 export default Demo*/
-import PropsExample from "./PropsExample"
+/*import PropsExample from "./PropsExample"
 function Demo(){
   return(
     <div>
@@ -21,5 +21,31 @@ function Demo(){
     <PropsExample name="karthik" age="19" rollno="203114"/>
     </div>
     )
+}
+export default Demo*/
+
+
+import ClassComponent3 from "./ClassComponent3";
+import FuncExample from "./FuncExample"
+import StateExample from "./StateExample";
+
+function Demo()
+{
+return(
+  <div>
+  <p>Good morning</p>
+  <h1>React</h1>
+  <ClassComponent3 framework="karthik" rollno="203114" year="2003"/>
+  <h1>vs code</h1>
+  <ClassComponent3 framework="siva" rollno="203109" year="2003"/>
+  <h1>react js</h1>
+  <ClassComponent3 framework="rajesh" rollno="203116" year="2003"/>
+  <h1>vs code</h1>
+  <ClassComponent3 framework="trinath" rollno="203125" year="2003"/>
+  <FuncExample/>
+  <StateExample/>
+  </div>
+)
+
 }
 export default Demo

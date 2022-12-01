@@ -1,4 +1,4 @@
-import React from "react"
+{/*import React from "react"
 class PropsExample extends React.Component{
 	render(){
 		console.log(this.props)
@@ -14,4 +14,4 @@ class PropsExample extends React.Component{
 			)
 	}
 }
-export default PropsExample
+export default PropsExample*/}
