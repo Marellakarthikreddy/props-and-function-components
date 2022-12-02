@@ -25,15 +25,16 @@ function Demo(){
 export default Demo*/
 
 
-import ClassComponent3 from "./ClassComponent3";
-import FuncExample from "./FuncExample"
-import StateExample from "./StateExample";
+//import ClassComponent3 from "./ClassComponent3";
+//import FuncExample from "./FuncExample"
+//import StateExample from "./StateExample";
+import Events from "./Events"
 
 function Demo()
 {
 return(
   <div>
-  <p>Good morning</p>
+  {/*<p>Good morning</p>
   <h1>React</h1>
   <ClassComponent3 framework="karthik" rollno="203114" year="2003"/>
   <h1>vs code</h1>
@@ -43,7 +44,8 @@ return(
   <h1>vs code</h1>
   <ClassComponent3 framework="trinath" rollno="203125" year="2003"/>
   <FuncExample/>
-  <StateExample/>
+  <StateExample/> */}
+  <Events/>
   </div>
 )
 
