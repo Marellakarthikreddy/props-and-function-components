@@ -1,5 +1,5 @@
 import React from 'react'
-export default class StateExample extends React.Component {
+export default class StateExample extends React.0Component {
     state={
         name:"react",
         age:123456

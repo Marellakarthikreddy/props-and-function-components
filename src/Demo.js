@@ -28,7 +28,12 @@ export default Demo*/
 //import ClassComponent3 from "./ClassComponent3";
 //import FuncExample from "./FuncExample"
 //import StateExample from "./StateExample";
-import Events from "./Events"
+import {BrowserRouter,Routes,Route} from"react-router-dom"
+import Home from "./Components/Home"
+import About from "./Components/About"
+import Contact from "./Components/Contact"
+import Navbar from "./Components/Navbar"
+import NotFound from "./Components/NotFound"
 
 function Demo()
 {
@@ -44,9 +49,21 @@ return(
   <h1>vs code</h1>
   <ClassComponent3 framework="trinath" rollno="203125" year="2003"/>
   <FuncExample/>
-  <StateExample/> */}
-  <Events/>
+  <StateExample/>
+   <Events/> */}
+  <BrowserRouter>
+  <Navbar/>
+    <Routes>
+       <Route path="/" element={<Home/>}/>
+       <Route path="/about" element={<About/>}/>
+       <Route path="/contact" element={<Contact/>}/>
+       <Route path="*" element={<NotFound/>}/>
+    
+     </Routes>
+  </BrowserRouter>
+
   </div>
+
 )
 
 }
